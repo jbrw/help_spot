@@ -1,0 +1,6 @@
+root_url: http://www.example.com/helpspot/api/index.php?format=json
+username: helpspot_user@example.com
+password: my_p@ssw0rd
+hidden_categories: 
+  - Deactivations
+  - 'Contact Us'

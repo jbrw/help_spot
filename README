@@ -1,0 +1,27 @@
+
+= HelpSpot
+
+Ruby gem to talk to the API of a HelpSpot instance.
+
+For information on HelpSpot: http://www.userscape.com/products/helpspot/
+
+Details of HelpSpot's API are at: http://www.userscape.com/helpdesk/index.php?pg=kb.book&id=6
+
+== License
+
+Licensed under the MIT License. See the included LICENSE file.
+
+= Usage
+
+== Installation
+
+Copy the <tt>config/help_spot.yml.sample</tt> file to <tt>THE_ROOT_DIR_OF_YOUR_APP/config/help_spot.yml</tt>. Edit the file to have some sensible values.
+
+Somewhere in your application, you'll want to do this once:
+
+<tt>HelpSpot.configure</tt>
+
+In my app, it also turns out it's useful to do this once:
+
+<tt>HELPSPOT_CATEGORIES = HelpSpot.category_key_value_pairs</tt>
+
